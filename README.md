@@ -18,9 +18,3 @@ Production mode:
 ```shell
 npm start
 ```
-
-Development (Webpack dev server) mode:
-
-```shell
-npm run start:dev
-```
