@@ -1,0 +1,68 @@
+.posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  margin: 40px auto;
+  background-color: white;
+  border-radius: 30px;
+  padding: 15px 10px 20px 10px;
+}
+
+.bg > h1 {
+  text-align: center;
+}
+
+input[type="text"]:not(.browser-default) {
+  width: 30vw !important;
+  margin: 20px;
+  padding: 10px;
+}
+
+.posts > div > label {
+  color: black;
+  font-size: 12pt;
+  margin-right: 25px;
+}
+.buttonBox {
+  width: 38vw;
+  display: flex;
+  justify-content: flex-end;
+}
+.postContent {
+  height: 150px !important;
+  border: 1px solid #9e9e9e !important;
+}
+.postContent:not(.browser-default):focus:not([readonly]) {
+  border: 1px solid #ffd800 !important;
+}
+.bg {
+  background-color: #ffd800;
+  padding: 20px;
+}
+.postsContainer {
+  width: 50vw;
+  margin: 0 auto;
+}
+.post {
+  margin: 20px auto 40px;
+  padding: 20px;
+  width: 40vw;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px rgba(48, 48, 48, 0.2);
+}
+
+.post > p {
+  margin-bottom: 0px;
+}
+
+.short {
+  display: inline;
+  border-bottom: 1px solid #9e9e9e;
+}
+
+.Success {
+  color: green;
+  text-align: center;
+  font-size: 16pt;
+}

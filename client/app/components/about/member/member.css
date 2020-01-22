@@ -1,0 +1,20 @@
+.member {
+  width: 20vw;
+}
+#memberList {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: space-between;
+  padding: 100px 20px;
+}
+.member {
+  text-align: center;
+}
+.memberIcon {
+  margin: 30px auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}

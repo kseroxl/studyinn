@@ -1,0 +1,45 @@
+.speakers {
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  width: 70vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  margin: 50px 0 30px;
+}
+
+.speaker {
+  margin: 0 15px 10px;
+  padding: 20px;
+  width: 30vw;
+  text-align: center;
+  border-radius: 10%;
+  box-shadow: 2px 2px 20px rgba(48, 48, 48, 0.2);
+}
+
+.head > img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.speakerInfo > p {
+  line-height: 10pt;
+}
+
+.speakerbtn {
+  display: block;
+  margin: 0 auto 30px;
+  width: 30vw;
+  text-align: center;
+  font-size: 16pt;
+}
+.Success {
+  color: green;
+  text-align: center;
+  font-size: 14pt;
+}

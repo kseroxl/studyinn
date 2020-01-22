@@ -1,0 +1,55 @@
+.login {
+  width: 50%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.form {
+  display: flex;
+}
+.loginForm {
+  margin-top: 30px;
+  width: 65%;
+}
+.loginForm > h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: Lato;
+  font-size: 25pt;
+  font-weight: 700;
+  color: black;
+  font-family: "Raleway", sans-serif;
+}
+.loginForm > form > button {
+  margin-top: 10px;
+}
+
+#signup {
+  background-color: transparent;
+  border: 2px solid #ffd800;
+  position: relative;
+  left: 45%;
+  color: black;
+  box-sizing: border-box;
+  padding: 13px 35px;
+}
+
+#signup:hover {
+  background-color: #ffd800;
+  color: black;
+}
+#buttons {
+  margin-top: 40px;
+}
+
+input[type="password"]:not(.browser-default):focus:not([readonly]),
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #ffd800;
+  -webkit-box-shadow: 0 1px 0 0 #ffd800;
+  box-shadow: 0 1px 0 0 #ffd800;
+}
+.Error {
+  color: red;
+}

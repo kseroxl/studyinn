@@ -1,0 +1,39 @@
+.label {
+    margin-right: 30px;
+}
+#acountForm {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    margin-bottom: 15px;
+}
+.star {
+    font-size: 5pt;
+    color: red;
+}
+#login {
+    padding: 13px 35px;
+}
+#buttons {
+    display: grid;
+    place-items: center;
+}
+.text-muted{
+    font-size: 10pt;
+    margin-top: 10px;
+}
+.FormGroup {
+    height: 55px;
+}
+
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:after {
+  background-color: #FFD800;
+}
+
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:before,
+[type="radio"].with-gap:checked + span:after {
+  border: 2px solid #FFD800;
+}

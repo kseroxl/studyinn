@@ -1,0 +1,68 @@
+.randomImg {
+  margin-top: -100px;
+  height: 45vh;
+  width: 100%;
+}
+#Menu {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.UserHeader {
+  margin: -100px auto 50px;
+  margin-top: -100px;
+  color: black;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: auto;
+  width: 40vw;
+}
+.UserHeader > h2 {
+  background-color: bisque;
+  width: 100px;
+}
+.avatarPhoto {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #ffd800;
+  display: block;
+  margin: 0 auto;
+}
+table {
+  width: 60vw;
+  margin: 0 auto;
+  border-spacing: 20px;
+  border-collapse: separate;
+  padding-right: auto;
+  margin-bottom: 50px;
+}
+th {
+  width: 150px;
+  font-size: 14pt;
+  border-bottom: 1px solid #ffd800;
+}
+
+td {
+  width: 400px;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.infoHeader {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.shortInfo > h1,
+.shortInfo > p {
+  font-family: "Lilita One", sans-serif;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.shortInfo > h1 {
+  font-size: 26pt;
+}
+
+h5,
+small {
+  text-align: center;
+}

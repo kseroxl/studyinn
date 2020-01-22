@@ -1,0 +1,50 @@
+footer {
+    padding: 40px 0 0 0;
+    background-color:  rgba(216, 216, 216, 0.78);
+}
+.Onecol>p, .Onecol>h6{
+    text-align: center;
+    width: 20vw;
+}
+.Onecol{
+    margin: 20px 20px;
+}
+.Onerow {
+    display: flex;
+    justify-content:space-between; 
+    align-items: flex-start;
+}
+.footer-copyright {
+    height: 5vh;
+    padding-top: 10px;
+    width: 80vw;
+    margin: 0 auto;
+    border-top: 1px solid grey;
+}
+.iconFoo {
+    font-size: 20pt;
+    margin-right: 15px;
+    cursor: pointer;
+}
+#f:hover {
+    color: #3B5998;
+}
+#t:hover {
+    color: #00ACEE
+}
+#i:hover {
+    color:#d6249f;
+}
+#l:hover {
+    color: #0E76A8;
+}
+#y:hover {
+    color: #C4302B;
+}
+.iconsFoo {
+    text-align: center;    
+}
+.linkFoo{
+    color: black;
+    cursor: pointer;
+}

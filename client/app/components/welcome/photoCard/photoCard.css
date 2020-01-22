@@ -1,0 +1,19 @@
+.wholeCard {
+  display: flex;
+  height: auto;
+}
+.photo {
+  width: 25vw;
+  height: auto;
+  background-size: cover;
+}
+.description {
+  width: 25vw;
+  padding: 100px 25px;
+}
+.description > p {
+  margin-bottom: 30px;
+}
+.black-text-link {
+  color: black;
+}

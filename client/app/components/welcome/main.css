@@ -1,0 +1,53 @@
+i {
+  color: black;
+  font-size: 15pt;
+}
+#cols {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+  box-sizing: content-box;
+}
+.col {
+  max-width: 300px;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: auto 40px;
+  text-align: center;
+}
+.icon {
+  margin: 20px auto;
+  font-size: 20pt;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffd800;
+  border-radius: 50%;
+}
+
+.col * {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  animation-duration: 2s;
+}
+.plainInfo {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+.greyCard {
+  background-color: #ffd800;
+  padding: 60px 0;
+}
+
+.Onecard {
+  display: flex;
+}
+.butn > NavLink {
+  color: black;
+}

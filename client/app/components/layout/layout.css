@@ -1,0 +1,118 @@
+#Menu {
+    height: 100px;
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    z-index: 200;
+    border-radius: 0 0 40px 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#logo {
+    margin-top: 12px;
+    margin-left: 2%;
+    font-family: 'Lilita One', cursive;
+    font-size: 28pt;
+    font-weight: 100;
+    letter-spacing: 1px;
+    animation-name: logoOut;
+    animation-duration: 0.2s;
+}
+
+#logotype {
+    width: 250px;
+    height: 100%;
+}
+
+#logo:after {
+    content: "";
+    height: 3px;
+    background-color: transparent;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: background 0.2s, bottom 0.2s;
+}
+
+#logo:hover:after {
+    content: "";
+    height: 3px;
+    background-color: #FFD800;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    box-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.3) ;
+  }
+
+#logo:hover{
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3) ;
+    animation-name: logoIn;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes logoIn {
+    from {font-size:30pt; color: black;}
+    to {font-size: 35pt; color: #FFD800;}
+}
+
+@keyframes logoOut {
+    from {font-size:35pt; color: #FFD800;}
+    to {font-size: 30pt; color: black;}
+}
+
+#logo:hover {
+    text-decoration: none;
+}
+#nav-login {
+    margin-right: 2%;
+}
+#nav-login .black-text-link {
+    color: black;
+    font-size: 12pt;
+    font-weight: 500;
+    padding: 15px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+#nav-login .black-text-link:hover {
+    border-bottom: solid black 8px;
+    text-decoration: none;
+}
+
+
+#main_slider {
+    height: 600px;
+    padding: 20px;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+nav {
+    height: inherit;
+    border-radius: 0 0 40px 40px;
+}
+
+.nav {
+    background-color: transparent !important;
+}
+.slider {
+    height: 690px !important;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+.slide.animateIn,
+	.slide.animateOut {
+	-webkit-transition: all 1s ease !important;
+	transition: all 1s ease !important;
+}
+.hrinfo {
+    height: 1px;
+    background-color: #FFD800;
+}
+
